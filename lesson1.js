@@ -16,8 +16,6 @@ if (!fizz.value){
 }else if (!(fizz.value === fizz.value && fizz.value%1 === 0)){
   errMsgFizz.textContent = 'FizzNumを整数で入力してください';
   return false;
-  
-
 }
 
 if(!buzz.value){
